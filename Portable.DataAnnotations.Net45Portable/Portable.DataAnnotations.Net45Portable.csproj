@@ -33,6 +33,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>StrongKey.snk.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="DataType.cs" />
     <Compile Include="GlobalSuppressions.cs" />
@@ -84,7 +90,9 @@
     <Compile Include="ValidationResult.cs" />
     <Compile Include="Validator.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="StrongKey.snk.pfx" />
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\DataAnnotationsResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
