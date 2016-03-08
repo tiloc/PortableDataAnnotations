@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Portable-Strong.DataAnnotations</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Portable Data Annotations (with Strong Name)</title>
     <authors>Ryan Horath (repackaged by Tilo Christ)</authors>
     <owners>Rybird Studios</owners>
@@ -23,6 +23,7 @@
       <group targetFramework="win8" />
       <group targetFramework="wp8" />
       <group targetFramework="wpa81" />
+      <group targetFramework="dnxcore50" />
       <group targetFramework="Xamarin.iOS10" />
       <group targetFramework="Xamarin.Mac20" />
       <group targetFramework="MonoAndroid" />
@@ -80,8 +81,8 @@
     <file src="Portable.DataAnnotations.Net45Portable\bin\Release\Portable.DataAnnotations.pdb" target="lib\wp8" />
 
     <!-- Portable libraries: .NET 4.5, Windows Store, Windows Phone Apps 8.1, Windows Phone Silverlight 8.0, iOS, Android -->
-    <file src="Portable.DataAnnotations.Net45Portable\bin\Release\Portable.DataAnnotations.dll" target="lib\portable-net45+netcore45+wp8+wpa81" />
-    <file src="Portable.DataAnnotations.Net45Portable\bin\Release\Portable.DataAnnotations.pdb" target="lib\portable-net45+netcore45+wp8+wpa81" />
+    <file src="Portable.DataAnnotations.Net45Portable\bin\Release\Portable.DataAnnotations.dll" target="lib\portable-net45+netcore45+wp8+wpa81+dnxcore50" />
+    <file src="Portable.DataAnnotations.Net45Portable\bin\Release\Portable.DataAnnotations.pdb" target="lib\portable-net45+netcore45+wp8+wpa81+dnxcore50" />
 
     <!-- Portable libraries: .NET 4.5, Windows Store, Windows Phone Apps 8.1, iOS, Android -->
     <file src="Portable.DataAnnotations.Net45Portable\bin\Release\Portable.DataAnnotations.dll" target="lib\portable-net45+netcore45+wpa81" />
